@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Node.ja_Chat App</title>
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/client.js"></script>
+  </head>
+  <body>
+    <div>
+      <div>
+        <img class="logo" src="mail_2776473.png" alt="message logo" />
+      </div>
+      <header>
+        <h2>Greeting with deep heart respect to use my chat</h2>
+        <h1>"Assalamu Alaikum"</h1>
+      </header>
+      </div>
+      <div class="chat-box">
+        <div class="container">
+        </div>
+        <form class="input-area" id="messageForm">
+          <input type="text" id="messageInput" placeholder="Type a message..." />
+          <label for="fileInput">
+            <img src="file_send.png" alt="Upload" class="icon-btn">
+          </label>
+          <input type="file" id="fileInput" hidden />
+          <button type="submit" id="sendBtn">
+            <img src="send_button.png" alt="Send" class="icon-btn" />
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
